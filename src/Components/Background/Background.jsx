@@ -5,7 +5,7 @@ import image2 from "../../assets/image2.png";
 import image3 from "../../assets/image3.png";
 
 const Background = ({ playStatus, heroCount }) => {
-  if (playStatus) {
+  if (playStatus) { 
     return (
       <video className="background fade-in" autoPlay loop muted>
         <source src={video1} type="video/mp4" />
